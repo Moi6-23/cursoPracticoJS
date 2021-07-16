@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto1</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://css.gg/shape-square.css' rel='stylesheet'>
+    <link href='https://css.gg/shape-triangle.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="container">
+        <div class="card1 card">
+            <i class="gg-shape-square"></i>
+            <h1>Cuadrado</h1>
+            <p>Calculadora que permite determinar ya sea el area o el perimetro de un cuadrado en base a la medida digitada en el siguiente cuadro de texto.</p>
+            <input type="number" id="InputCuadrado">
+            <span>Presione el botón</span>
+            <button class="buttomL" onclick="calcularPerimetroCuadrado()" >Determinar el perímetro</button>
+            <button class="buttomR" onclick="calcularAreaCuadrado()">Determinar el Area</button>
+        </div>
+        <div class="card2 card">
+            <span class="triangle"></span>
+            <h1>Triángulo</h1>
+            <p>Calculadora que permite determinar ya sea el area o el perimetro de un triángulo en base a la medida digitada en el siguiente cuadro de texto.</p>
+            <input type="number" id="InputTriangle1" class="inputTriangulo">
+            <input type="number" id="InputTriangle2" class="inputTriangulo">
+            <input type="number" id="InputTriangle3" class="inputTriangulo">
+            <span>Presione el botón</span>
+            <button class="buttomL" onclick="calcularPerimetroTriangulo()">Determinar el perímetro</button>
+            <button class="buttomR" onclick="calcularAreaTriangulo()">Determinar el Area</button>
+        </div>
+        <div class="card3 card">
+            <span class="circle"></span>
+            <h1>Circulo</h1>
+            <p>Calculadora que permite determinar ya sea el area o el perimetro de un circulo en base a la medida digitada en el siguiente cuadro de texto.</p>
+            <input type="number" id="InputCircle">
+            <span>Presione el botón</span>
+            <button class="buttomL" onclick="calcularPerimetroircle1()">Determinar el perímetro</button>
+            <button class="buttomR" onclick="calcularAreaCircle1()">Determinar el Area</button>
+        </div>
+    </section>
+    <script src="./FuncionIndex.js"></script>
+</body>
+</html>
