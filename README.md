@@ -12,3 +12,9 @@
 - Segundo paso: Implementar fórmulas en gundo JavaScript
 - Tercer paso: Crear funciones
 - Cuarto paso: Integrar Javascript con Html
+
+##Taller 3: Promedio, mediana y moda
+- Primer paso: Definir las fórmulas
+- Segundo paso: Implementar fórmulas en gundo JavaScript
+- Tercer paso: Crear funciones
+- Cuarto paso: Integrar Javascript con Html
